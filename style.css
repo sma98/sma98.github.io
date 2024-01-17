@@ -30,7 +30,8 @@ body{
   .introduction h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    animation: zoom 16s alternate infinite; 
+    animation: zoom 5s forwards;
+
   }
   
   .introduction h2 {

@@ -6,10 +6,24 @@
     margin: 0;
     background-attachment: fixed;
   }
+  .name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Ensure the name is above other elements */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .name a {
+    text-decoration: none;
+    color: white;
+  }
   
   .title{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 0;
     right: 0;
     

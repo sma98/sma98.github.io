@@ -39,7 +39,21 @@ body{
     margin-bottom: 8px;
   }
   
-
+  .download-container {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .down {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+      
 @keyframes zoom {
     0%{
         transform: scale(1);

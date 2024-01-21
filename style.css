@@ -1,13 +1,18 @@
-.bg {
+.body {
     height: 100%;
+    width: 100%;
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     background-repeat: no-repeat;
     overflow: hidden;
     margin: 0;
     background-attachment: fixed;
   }
+  .section {
+    height: 100%;
+    padding-top: 20px;
+}
   .name {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 10px;
     z-index: 1000; /* Ensure the name is above other elements */
@@ -48,6 +53,10 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
   }
+  .white_gard_text p{
+    letter-spacing: normal;
+}
+
   .download-container {
 
     display: flex;
@@ -91,6 +100,34 @@
     margin-right: 10px;
     /* Adjust the margin as needed */
 }
+
+.icon {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  border: 2px solid #ccc;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon src {
+  justify-content: space-between;
+  cursor: pointer;
+    width: 10px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+    margin-right: 10px; 
+}
+
 .about {
     display: flex;
     align-items: center;

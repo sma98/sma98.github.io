@@ -1,22 +1,27 @@
+html {
+  height: 100%;
+}
+
 .body {
     height: 100%;
     width: 100%;
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: auto;
     margin: 0;
     background-attachment: fixed;
   }
   .section {
+    position: relative;
     height: 100%;
     padding-top: 20px;
-    width: 50%;
+    /* width: 50%; */
     margin-left: auto;
   margin-right: auto;
 }
   .name {
     position: fixed;
-    /* top: 10px; */
+    top: 10px;
     left: 10px;
     z-index: 1000; /* Ensure the name is above other elements */
     padding: 10px;
@@ -43,7 +48,7 @@
     font-size: 30px;
     letter-spacing: 10px;
     
-    /* margin-top: -80px; */
+    margin-top: 40px;
     padding-left: 10px;
     align-items:stretch ;
   }
@@ -65,8 +70,8 @@
     text-align: center;
     color: white;
     cursor: pointer;
-    position: fixed;
-    /* top: 60%; */
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -108,35 +113,35 @@
   justify-content: center;
   text-align: center;
   color: white;
-  cursor: pointer;
-  position: fixed;
-  /* top: 90%; */
+  /* cursor: pointer; */
+  position: absolute;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  border: 2px solid #ccc;
+  /* border: 2px solid #ccc; */
   /* margin: 20px; */
   padding: 10px;
   border-radius: 10px;
 }
-.icon src {
+.icon img {
   justify-content: space-between;
   cursor: pointer;
-    width: 10px; /* Adjust the width as needed */
-    height: 24px; /* Adjust the height as needed */
-    margin-right: 10px; 
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  margin-right: 10px; 
 }
 
 .about {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     flex-direction: column; /* Added to stack the elements vertically */
     text-align: center;
     color: white;
-    position: fixed;
-    /* top: 80%;  */
+    position: absolute;
+    top: 80%; 
     left: 50%;
     transform: translate(-50%, -50%);
 }

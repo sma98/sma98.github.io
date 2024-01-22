@@ -1,25 +1,21 @@
-html {
+
+
+.html {
     height: 100%;
 }
 
 .body {
     margin: 0;
     padding: 0;
-    /* height: auto; */
+    height: 100%;
     background-color: aqua;
 }
 
-.section {
+  .section {
     height: 100%;
     padding-top: 20px;
+    
 }
-
-.section  {
-    color: white;
-}
-.section ss {
-    top: 80%;
-}
-.section ss h1{
-    color: white;
+.h1{
+    color:red;
 }

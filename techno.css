@@ -1,0 +1,29 @@
+
+.techno-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto; /* Center the div horizontally */
+}
+/* .s{
+    width: 50%
+    ;
+    align-items: center;
+    justify-content: center;
+} */
+.box {
+    
+    color: white;
+    width: 180px;
+    height: 120px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .box:hover{
+    color: #004080;
+
+  }
+ 

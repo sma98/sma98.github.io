@@ -9,18 +9,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%;
-    margin: auto; /* Center the div horizontally */
+    margin: auto; 
 }
-/* .s{
-    width: 50%
-    ;
-    align-items: center;
-    justify-content: center;
-} */
 .box {
-    
+  
     color: white;
-    width: 180px;
+    width: 120px;
     height: 120px;
     border: 1px solid white;
     padding: 10px;
@@ -31,8 +25,13 @@
 
     
   }
+  .box img {
+    max-width: 100px; 
+    max-height: 80px; 
+    margin-bottom: 10px; 
+  }
   .box:hover{
-    color: #004080;
+    background-color: #004080;
 
   }
  

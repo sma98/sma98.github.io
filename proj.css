@@ -1,6 +1,33 @@
+.section.proj{
+    height: auto;
+    margin-top: 75px;
+   
+  }
 .proj{
-    height: 100%;
+    height: auto;
 }
 .proj-container{
-    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto; /* Center the div horizontally */
+
 }
+
+.proj-box {
+    
+    color: white;
+    width: 400px;
+    height: 200px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+.proj-box:hover{
+    color: #004080;
+
+  }
+ 

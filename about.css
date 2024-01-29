@@ -1,0 +1,40 @@
+.about{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+  }
+  .about-container{
+    width: 70%
+    ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .about {
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; /* Added to stack the elements vertically */
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 80%; 
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+  }
+  
+   .about h1 {   
+    
+  
+  
+    
+     
+  }
+  
+  .about p {
+      color: white;
+      font-size: large;
+      letter-spacing: normal;
+  }
+  

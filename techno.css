@@ -1,5 +1,10 @@
-
+.section.techno{
+  height: auto;
+  margin-top: 75px;
+ 
+}
 .techno-container {
+  margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -21,6 +26,10 @@
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+
+
+
+    
   }
   .box:hover{
     color: #004080;

@@ -7,6 +7,7 @@
   margin-bottom: 50px;
 }
 .techno-container {
+  height: auto;
    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;

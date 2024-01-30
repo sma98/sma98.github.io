@@ -3,12 +3,15 @@
   margin-top: 75px;
  
 }
+.techno h1{
+  margin-bottom: 50px;
+}
 .techno-container {
-  margin-top: 50px;
+   margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 70%;
+    width: 50%;
     margin: auto; 
 }
 .box {
@@ -31,7 +34,8 @@
     margin-bottom: 10px; 
   }
   .box:hover{
-    background-color: #004080;
+    background-color: rgb(0, 64, 128,0.7);
+
 
   }
  

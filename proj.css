@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 70%;
+    width: 60%;
     margin: auto; /* Center the div horizontally */
 
 }

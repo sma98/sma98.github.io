@@ -3,114 +3,118 @@ html {
 }
 
 .body {
-    height: 100%;
-    width: 100%;
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-    background-repeat: no-repeat;
-    overflow: auto;
-    margin: 0;
-    background-attachment: fixed;
-  }
-  .section {
-    position: relative;
-    height: auto;
-    
-    /* width: 50%; */
-    margin-left: auto;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  background-repeat: no-repeat;
+  overflow: auto;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+.section {
+  position: relative;
+  height: auto;
+
+  /* width: 50%; */
+  margin-left: auto;
   margin-right: auto;
 }
 
 
-  .name {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1000; /* Ensure the name is above other elements */
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-  }
-  .name a:hover {
-    color: #004080;
-    /* Dark Blue */
-}
-  
-  .name a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .title{
-    /* padding-top: 120px; */
-    /* position: absolute; */
-    color: #FFF;
-    text-align: center;
-    font-family: 'lato',sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    letter-spacing: 10px;
-    
-    /* margin-top: 20%; */
-    padding-left: 10px;
-    align-items:stretch ;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .white_gard_text{
-    position: absolute;
-    width: 100%;
-      background: -webkit-linear-gradient(white, #38495a);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      top: 12%;
-  }
-  .white_gard_text p{
-    letter-spacing: normal;
+.name {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  /* Ensure the name is above other elements */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
-  .download-container {
+.name a:hover {
+  color: #004080;
+  /* Dark Blue */
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    border: 2px solid #ccc;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
+.name a {
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  /* padding-top: 120px; */
+  /* position: absolute; */
+  color: #FFF;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+
+  /* margin-top: 20%; */
+  padding-left: 10px;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+.white_gard_text {
+  position: absolute;
+  width: 100%;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  top: 12%;
+}
+
+.white_gard_text p {
+  letter-spacing: normal;
+}
+
+.download-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  border: 2px solid #ccc;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .download-container:hover {
-    background-color: #004080;
-    /* Dark Blue */
+  background-color: #004080;
+  /* Dark Blue */
 }
 
 .down {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    /* margin-top: 10px; */
-    /* Adjust the margin as needed */
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  /* margin-top: 10px; */
+  /* Adjust the margin as needed */
 }
 
 .download-container img {
-    cursor: pointer;
+  cursor: pointer;
 
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 
 
-    margin-right: 10px;
-    /* Adjust the margin as needed */
+  margin-right: 10px;
+  /* Adjust the margin as needed */
 }
 
 .icon {
@@ -132,31 +136,21 @@ html {
   padding: 10px;
   border-radius: 10px;
 }
+
 .icon img {
   justify-content: space-between;
   cursor: pointer;
-  width: 30px; /* Adjust the width as needed */
-  height: 30px; /* Adjust the height as needed */
-  margin-right: 10px; 
+  width: 40px;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
+  /* margin-right: 10px; */
+  margin: 10px;
+  margin-top: 15px;
 }
 
 
-.techno{
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: normal;
-  text-align: center;
 
-}
-.proj{
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: normal;
-  text-align: center;
-
-}
 /* .exp h1{
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
@@ -171,16 +165,16 @@ html {
   align-items: center;
   
 } */
-  .stars{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 1px;
-    width: 1px;
-    background-color: #fff;
-    border-radius: 50%;
-  
-    box-shadow: -23vw 20vh 1px 1px#fff,
+.stars {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 1px;
+  width: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+
+  box-shadow: -23vw 20vh 1px 1px#fff,
     18vw -13vh 0px 0px#fff,
     40vw -44vh 1px 0px#fff,
     -49vw 5vh 0px 1px#fff,
@@ -280,18 +274,18 @@ html {
     -6vw 40vh 1px 0px#fff,
     5vw -48vh 1px 0px#fff,
     -47vw -48vh 1px 0px#fff;
-    animation			: animStar 50s linear infinite;
-  }
-  
-  .stars2{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 1px;
-    width: 1px;
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 14vw 4vh 1px 0px#fff,
+  animation: animStar 50s linear infinite;
+}
+
+.stars2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 1px;
+  width: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 14vw 4vh 1px 0px#fff,
     -32vw 12vh 1px 1px#fff,
     2vw -49vh 0px 1px#fff,
     -15vw -12vh 1px 0px#fff,
@@ -391,18 +385,18 @@ html {
     26vw 35vh 1px 0px#fff,
     -49vw 46vh 1px 0px#fff,
     37vw -12vh 1px 1px#fff;
-    animation			: animStar2 100s linear infinite;
-  }
-  
-  .stars3{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 1px;
-    width: 1px;
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 49vw -29vh 1px 0px#fff,
+  animation: animStar2 100s linear infinite;
+}
+
+.stars3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 1px;
+  width: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 49vw -29vh 1px 0px#fff,
     -39vw -11vh 0px 1px#fff,
     46vw 3vh 1px 0px#fff,
     -41vw 50vh 1px 0px#fff,
@@ -502,25 +496,26 @@ html {
     14vw -47vh 0px 1px#fff,
     -31vw 19vh 1px 0px#fff,
     50vw -32vh 1px 1px#fff;
-    animation			: animStar2 150s linear infinite;
+  animation: animStar2 150s linear infinite;
+}
+
+
+@keyframes animStar {
+  from {
+    transform: translateY(1000px)
   }
-  
-  
-  @keyframes animStar{
-    from {
-      transform: translateY(1000px)
-    }
-    to{
-      transform: translateY(-400px)
-    }
+
+  to {
+    transform: translateY(-400px)
   }
-  
-  @keyframes animStar2{
-    from {
-      transform: translateY(1000px)
-    }
-    to{
-      transform: translateY(-150px)
-    }
+}
+
+@keyframes animStar2 {
+  from {
+    transform: translateY(1000px)
   }
-    
+
+  to {
+    transform: translateY(-150px)
+  }
+}
